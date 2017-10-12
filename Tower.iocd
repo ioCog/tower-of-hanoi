@@ -1,0 +1,15 @@
+﻿////ioCog Data File
+////Tower of Hanoi
+////Rob Lewis
+////4 Aug 2017
+
+Make Peg (PegNumber 1);
+Make Peg (PegNumber 2);
+Make Peg (PegNumber 3);
+Make Disk (Size 6, Peg 1);
+Make Disk (Size 5, Peg 1);
+Make Disk (Size 4, Peg 1);
+Make Disk (Size 3, Peg 1);
+Make Disk (Size 2, Peg 1);
+Make Disk (Size 1, Peg 1);
+Make Goal (Stack [1,2,3,4,5,6], From 1, To 3);
